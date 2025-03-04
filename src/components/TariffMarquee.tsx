@@ -32,65 +32,72 @@ const TariffMarquee: React.FC = () => {
   }, []);
 
   return (
-    <div 
-      className={cn(
-        "w-full bg-tariff-slate text-white py-3 overflow-hidden border-b border-tariff-blue/20 transition-opacity duration-700",
-        isVisible ? "opacity-100" : "opacity-0"
-      )}
-    >
-      <div className="flex items-center">
-        <div className="min-w-max px-4 font-semibold flex items-center gap-2 border-r border-tariff-blue/20">
-          <TagIcon size={14} className="text-tariff-blue" />
-          <span>LATEST TARIFF UPDATES</span>
-        </div>
-        
-        <div className="inline-flex animate-marquee whitespace-nowrap">
-          {tariffs.map((tariff) => (
-            <div 
-              key={tariff.id} 
-              className="inline-flex items-center mx-4 px-3 py-1 rounded-full bg-white/10 backdrop-blur-sm"
-            >
-              <span className="font-medium mr-2">{tariff.country}</span>
-              <span className="text-tariff-light/80 mr-2">{tariff.product}</span>
-              <span 
-                className={`inline-flex items-center ${
-                  tariff.percentChange > 0 ? 'text-green-400' : 'text-red-400'
-                }`}
+    <div className="flex flex-col w-full">
+      <div 
+        className={cn(
+          "w-full bg-tariff-slate text-white py-3 overflow-hidden border-b border-tariff-blue/20 transition-opacity duration-700",
+          isVisible ? "opacity-100" : "opacity-0"
+        )}
+      >
+        <div className="flex items-center">
+          <div className="inline-flex animate-marquee whitespace-nowrap">
+            {tariffs.map((tariff) => (
+              <div 
+                key={tariff.id} 
+                className="inline-flex items-center mx-4 px-3 py-1 rounded-full bg-white/10 backdrop-blur-sm"
               >
-                {tariff.percentChange > 0 ? (
-                  <ArrowUpRight size={14} className="mr-1" />
-                ) : (
-                  <ArrowDownRight size={14} className="mr-1" />
-                )}
-                {Math.abs(tariff.percentChange)}%
-              </span>
-            </div>
-          ))}
-        </div>
-        
-        {/* Duplicate for seamless loop */}
-        <div className="inline-flex animate-marquee whitespace-nowrap">
-          {tariffs.map((tariff) => (
-            <div 
-              key={`dup-${tariff.id}`} 
-              className="inline-flex items-center mx-4 px-3 py-1 rounded-full bg-white/10 backdrop-blur-sm"
-            >
-              <span className="font-medium mr-2">{tariff.country}</span>
-              <span className="text-tariff-light/80 mr-2">{tariff.product}</span>
-              <span 
-                className={`inline-flex items-center ${
-                  tariff.percentChange > 0 ? 'text-green-400' : 'text-red-400'
-                }`}
+                <span className="font-medium mr-2">{tariff.country}</span>
+                <span className="text-tariff-light/80 mr-2">{tariff.product}</span>
+                <span 
+                  className={`inline-flex items-center ${
+                    tariff.percentChange > 0 ? 'text-green-400' : 'text-red-400'
+                  }`}
+                >
+                  {tariff.percentChange > 0 ? (
+                    <ArrowUpRight size={14} className="mr-1" />
+                  ) : (
+                    <ArrowDownRight size={14} className="mr-1" />
+                  )}
+                  {Math.abs(tariff.percentChange)}%
+                </span>
+              </div>
+            ))}
+          </div>
+          
+          {/* Duplicate for seamless loop */}
+          <div className="inline-flex animate-marquee whitespace-nowrap">
+            {tariffs.map((tariff) => (
+              <div 
+                key={`dup-${tariff.id}`} 
+                className="inline-flex items-center mx-4 px-3 py-1 rounded-full bg-white/10 backdrop-blur-sm"
               >
-                {tariff.percentChange > 0 ? (
-                  <ArrowUpRight size={14} className="mr-1" />
-                ) : (
-                  <ArrowDownRight size={14} className="mr-1" />
-                )}
-                {Math.abs(tariff.percentChange)}%
-              </span>
-            </div>
-          ))}
+                <span className="font-medium mr-2">{tariff.country}</span>
+                <span className="text-tariff-light/80 mr-2">{tariff.product}</span>
+                <span 
+                  className={`inline-flex items-center ${
+                    tariff.percentChange > 0 ? 'text-green-400' : 'text-red-400'
+                  }`}
+                >
+                  {tariff.percentChange > 0 ? (
+                    <ArrowUpRight size={14} className="mr-1" />
+                  ) : (
+                    <ArrowDownRight size={14} className="mr-1" />
+                  )}
+                  {Math.abs(tariff.percentChange)}%
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+      
+      {/* Label moved below the marquee */}
+      <div className="w-full bg-tariff-blue/10 border-b border-tariff-blue/20 py-2">
+        <div className="container mx-auto px-4">
+          <div className="font-semibold flex items-center gap-2 text-tariff-slate">
+            <TagIcon size={14} className="text-tariff-blue" />
+            <span>LATEST TARIFF UPDATES</span>
+          </div>
         </div>
       </div>
     </div>
