@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { 
   Bell, Globe, LineChart, 
-  TrendingUp, ArrowUpRight
+  ArrowUpRight
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -53,17 +53,6 @@ const FeatureSection: React.FC = () => {
   return (
     <section className="w-full py-20 px-4 md:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <div className="inline-flex items-center px-3 py-1.5 bg-tariff-blue/10 text-tariff-blue rounded-full text-sm font-medium mb-6">
-            <TrendingUp size={14} className="mr-2" />
-            Comprehensive Monitoring
-          </div>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Everything you need to <span className="text-gradient">stay ahead</span></h2>
-          <p className="text-lg text-tariff-gray max-w-2xl mx-auto">
-            Our platform offers comprehensive tools to monitor, analyze, and respond to global tariff changes in real-time.
-          </p>
-        </div>
-
         <div className="flex flex-col md:flex-row gap-8 overflow-x-auto pb-4">
           {features.map((feature, index) => (
             <div
