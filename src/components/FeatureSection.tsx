@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react';
 import { 
   Bell, Globe, LineChart, 
@@ -63,13 +64,14 @@ const FeatureSection: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="flex flex-col md:flex-row gap-8 overflow-x-auto pb-4">
           {features.map((feature, index) => (
             <div
               key={index}
               data-index={index}
               className={cn(
                 "feature-item glass-morphism p-6 rounded-xl transition-all duration-700 ease-out",
+                "flex-1 min-w-[280px]",
                 visibleFeatures.includes(index) 
                   ? "translate-y-0 opacity-100" 
                   : "translate-y-10 opacity-0",
