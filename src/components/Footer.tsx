@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="w-full pt-16 pb-8 px-4 md:px-8 border-t border-gray-100">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div>
             <h3 className="font-bold text-xl mb-4">TariffTrak</h3>
             <p className="text-tariff-gray text-sm max-w-xs">
@@ -29,35 +29,9 @@ const Footer: React.FC = () => {
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Platform</h4>
-            <ul className="space-y-2">
-              {['Features', 'Pricing', 'API', 'Integrations', 'Documentation'].map((item, i) => (
-                <li key={i}>
-                  <a href="#" className="text-tariff-gray hover:text-tariff-blue text-sm transition-colors">
-                    {item}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-          
-          <div>
             <h4 className="font-semibold mb-4">Company</h4>
             <ul className="space-y-2">
               {['About Us', 'Careers', 'Blog', 'Press', 'Partners'].map((item, i) => (
-                <li key={i}>
-                  <a href="#" className="text-tariff-gray hover:text-tariff-blue text-sm transition-colors">
-                    {item}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-          
-          <div>
-            <h4 className="font-semibold mb-4">Resources</h4>
-            <ul className="space-y-2">
-              {['Support', 'Contact', 'Privacy', 'Terms', 'Trust Center'].map((item, i) => (
                 <li key={i}>
                   <a href="#" className="text-tariff-gray hover:text-tariff-blue text-sm transition-colors">
                     {item}
