@@ -11,16 +11,11 @@ interface TariffUpdate {
   date: string;
 }
 
-// Sample tariff data for initial display
+// New tariff data as specified
 const initialTariffs: TariffUpdate[] = [
-  { id: 1, country: 'USA', product: 'Aluminum', percentChange: 10.5, date: '2023-06-15' },
-  { id: 2, country: 'EU', product: 'Steel Components', percentChange: -5.2, date: '2023-07-03' },
-  { id: 3, country: 'China', product: 'Electronics', percentChange: 7.8, date: '2023-07-10' },
-  { id: 4, country: 'Canada', product: 'Timber', percentChange: 3.2, date: '2023-08-01' },
-  { id: 5, country: 'Japan', product: 'Automotive Parts', percentChange: -2.1, date: '2023-08-12' },
-  { id: 6, country: 'UK', product: 'Textiles', percentChange: 8.3, date: '2023-08-20' },
-  { id: 7, country: 'Mexico', product: 'Agricultural Goods', percentChange: 1.5, date: '2023-09-01' },
-  { id: 8, country: 'Australia', product: 'Minerals', percentChange: -3.7, date: '2023-09-15' },
+  { id: 1, country: 'Canada', product: 'Orange Juice', percentChange: 18, date: '2023-10-15' },
+  { id: 2, country: 'Canada', product: 'Chocolate Milk', percentChange: 14, date: '2023-10-15' },
+  { id: 3, country: 'Mexico', product: 'Red Wine', percentChange: 6, date: '2023-10-15' },
 ];
 
 const TariffMarquee: React.FC = () => {
