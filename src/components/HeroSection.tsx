@@ -52,15 +52,6 @@ const HeroSection: React.FC = () => {
                 Schedule a Demo
               </Button>
             </div>
-            
-            <div className="pt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-              <p className="text-sm text-tariff-gray">Trusted by global leaders</p>
-              <div className="flex space-x-6">
-                <div className="h-8 w-20 bg-tariff-gray/20 rounded animate-pulse"></div>
-                <div className="h-8 w-24 bg-tariff-gray/20 rounded animate-pulse"></div>
-                <div className="h-8 w-16 bg-tariff-gray/20 rounded animate-pulse"></div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
