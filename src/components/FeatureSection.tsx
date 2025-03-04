@@ -1,8 +1,7 @@
-
 import React, { useEffect, useState } from 'react';
 import { 
-  Bell, CheckCircle2, Globe, LineChart, Zap, 
-  TrendingUp, ArrowUpRight, Settings
+  Bell, Globe, LineChart, 
+  TrendingUp, ArrowUpRight
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -27,21 +26,6 @@ const features: Feature[] = [
     icon: <Globe className="text-tariff-blue" />,
     title: "Global Coverage",
     description: "Access comprehensive tariff information from 194 countries and customs territories."
-  },
-  {
-    icon: <CheckCircle2 className="text-tariff-blue" />,
-    title: "Compliance Tools",
-    description: "Ensure your imports and exports meet all regulatory requirements with our compliance checkers."
-  },
-  {
-    icon: <Zap className="text-tariff-blue" />,
-    title: "API Integration",
-    description: "Connect our tariff data directly to your ERP, supply chain, or custom systems."
-  },
-  {
-    icon: <Settings className="text-tariff-blue" />,
-    title: "Customizable Dashboard",
-    description: "Tailor your monitoring interface to focus on the regions and products that matter to you."
   }
 ];
 
