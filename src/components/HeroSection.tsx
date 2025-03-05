@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import { ArrowRight, Shield } from 'lucide-react';
+import { Calendar } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 
@@ -43,14 +43,10 @@ const HeroSection: React.FC = () => {
               Real-time monitoring and analysis of international trade policy that specifically impacts key U.S industries like grocery, retail & manufacturing. Map tariff changes to your product SKUs and GTINs to understand how much of your revenue is at risk.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <Button size="lg" className="rounded-full">
-                Get Started
-                <ArrowRight size={16} className="ml-2" />
-              </Button>
-              
+            <div className="flex justify-center pt-4">
               <Button size="lg" variant="outline" className="rounded-full">
-                Schedule a Demo
+                Book Demo
+                <Calendar size={16} className="ml-2" />
               </Button>
             </div>
           </div>
