@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import { CheckCircle2, ArrowRight } from 'lucide-react';
+import { CheckCircle2, Calendar } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
@@ -71,8 +71,8 @@ const CtaSection: React.FC = () => {
             <div className="space-y-4 bg-white p-6 rounded-xl shadow-sm">
               <div className="space-y-3 pt-2">
                 <Button className="w-full rounded-full" size="lg">
-                  Start Free Trial
-                  <ArrowRight size={16} className="ml-2" />
+                  Book demo
+                  <Calendar size={16} className="ml-2" />
                 </Button>
               </div>
               
