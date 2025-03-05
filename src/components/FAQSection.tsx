@@ -25,8 +25,8 @@ const faqItems = [
     answer: "Please schedule a demo with us and we will manually walk you through how we verify whether a specific item has a tariff increase/decrease. Trust us, even if you know how to parse HTS data you will not want to :)"
   },
   {
-    question: "Can I integrate TariffTrak with my existing systems?",
-    answer: "Absolutely. TariffTrak offers API integration capabilities that allow seamless connection with your ERP, procurement, or supply chain management systems. Contact our sales team for integration options."
+    question: "Why can't I just ask ChatGPT",
+    answer: "ChatGPT often hallucinates due to the fact that it uses information from media headlines or cites other blogs or web articles that are often out of date. We built this because we saw that ChatGPT and deep research struggle to accurately provide reliable and up to date information on how tariffs are impacting specific products."
   }
 ];
 
