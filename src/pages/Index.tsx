@@ -4,6 +4,7 @@ import TariffMarquee from '@/components/TariffMarquee';
 import HeroSection from '@/components/HeroSection';
 import FeatureSection from '@/components/FeatureSection';
 import CtaSection from '@/components/CtaSection';
+import FAQSection from '@/components/FAQSection';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -14,6 +15,7 @@ const Index = () => {
         <HeroSection />
         <FeatureSection />
         <CtaSection />
+        <FAQSection />
       </main>
       <Footer />
     </div>
