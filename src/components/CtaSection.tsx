@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
 const benefits = [
-  "**Financial analysts:** Get up to date, product level information on how tariffs are being implemented",
+  "**Financial analysts:** Get a granular understanding of how tariffs can cause business model disruption to public & private companies",
   "**Supply Chain Operators:** Understand how much of your business is at risk from tariff disruptions",
   "**Import / Export teams:** Identify legal loopholes in how tariffs are being implemented",
   "**Grocery Operators:** Understand how tariffs might impact your most popular items",
