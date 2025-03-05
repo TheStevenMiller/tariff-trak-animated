@@ -8,7 +8,8 @@ const benefits = [
   "Financial analysts: Get up to date, product level information on how tariffs are being implemented",
   "Supply Chain Operators: Understand how much of your business is at risk from tariff disruptions",
   "Import / Export teams: Identify legal loopholes in how tariffs are being implemented",
-  "Grocery Operators: Understand how tariffs might impact your most popular items"
+  "Grocery Operators: Understand how tariffs might impact your most popular items",
+  "Manufacturing Executives: Track tariff policy changes affecting your materials and components"
 ];
 
 const CtaSection: React.FC = () => {
