@@ -25,7 +25,7 @@ const features: Feature[] = [
   {
     icon: <Globe className="text-tariff-blue" />,
     title: "Canada, Mexico & China",
-    description: "Access comprehensive tariff information from the most important trade partners for U.S. grocery retailers."
+    description: "Access comprehensive tariff information from the most important trade partners for the United States."
   }
 ];
 
