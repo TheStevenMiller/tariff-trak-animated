@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
 const benefits = [
-  "Stay ahead of regulatory changes",
+  "Financial analysts: Get up to date, product level information on how tariffs are being implemented",
   "Optimize supply chain costs",
   "Reduce compliance risks",
   "Improve strategic planning"
