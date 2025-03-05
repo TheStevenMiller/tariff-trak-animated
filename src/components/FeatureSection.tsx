@@ -1,8 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { 
-  Bell, Globe, LineChart, 
-  ArrowUpRight
+  Bell, Globe, LineChart
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -72,13 +71,6 @@ const FeatureSection: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-3">{feature.title}</h3>
               <p className="text-tariff-gray">{feature.description}</p>
-              
-              <div className="mt-4 pt-4 border-t border-gray-100">
-                <a href="#" className="inline-flex items-center text-tariff-blue text-sm font-medium hover:underline group">
-                  Learn more 
-                  <ArrowUpRight size={14} className="ml-1 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-                </a>
-              </div>
             </div>
           ))}
         </div>
