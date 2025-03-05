@@ -9,7 +9,7 @@ import {
 const faqItems = [
   {
     question: "Trump says 25% tariffs on Mexico & Canada. Does this mean all products?",
-    answer: "TariffTrak provides real-time monitoring of global tariff changes affecting your specific products. Our platform helps you anticipate cost impacts, optimize your supply chain, and make informed strategic decisions before changes affect your bottom line."
+    answer: "No - tariffs are implemented at a much more granular level via the State Department in the form of a HTS code. 25% tariffs could mean a 25% tariff on strawberries important from Mexico or 25% increase on car engines from Canada. The only way to know exactly what items are impacted is by analyzing how the State Department implements them at the HTS level (Which we provide)"
   },
   {
     question: "Which countries do you cover?",
