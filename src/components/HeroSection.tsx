@@ -35,7 +35,7 @@ const HeroSection: React.FC = () => {
             </div>
             
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
-              Track global tariffs with <span className="text-gradient">precision</span>
+              Track tariff changes in <span className="text-tariff-blue">real time</span>
             </h1>
             
             <p className="text-lg md:text-xl text-tariff-gray max-w-2xl mx-auto">
