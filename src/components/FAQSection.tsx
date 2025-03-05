@@ -1,3 +1,4 @@
+
 import React from 'react';
 import {
   Accordion,
@@ -12,8 +13,8 @@ const faqItems = [
     answer: "No - tariffs are implemented at a much more granular level via the State Department in the form of a HTS code. 25% tariffs could mean a 25% tariff on strawberries important from Mexico or 25% increase on car engines from Canada. The only way to know exactly what items are impacted is by analyzing how the State Department implements them at the HTS level (Which we provide)"
   },
   {
-    question: "Which countries do you cover?",
-    answer: "Our platform currently covers key trading partners including Canada, Mexico, China, and the United States. We're continuously expanding our coverage to include more regions based on customer demand."
+    question: "What is a HTS code?",
+    answer: "HTS stands for Harmonized Tariff Schedule. An example of an HTS code: Meat, Chapter 2, 0201.10.05.10 (Veal). It will then have the tariff rate (% per unit of quantity) and countries that it applies to (CA, MX, etc). These are updated on a non-standardized basis by the State Department."
   },
   {
     question: "How accurate is the tariff information?",
