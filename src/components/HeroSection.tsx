@@ -44,9 +44,9 @@ const HeroSection: React.FC = () => {
             </p>
             
             <div className="flex justify-center pt-4">
-              <Button size="lg" variant="outline" className="rounded-full">
+              <Button size="lg" variant="outline" className="rounded-full text-base px-8 py-6 h-14">
                 Book Demo
-                <Calendar size={16} className="ml-2" />
+                <Calendar size={18} className="ml-2" />
               </Button>
             </div>
           </div>
