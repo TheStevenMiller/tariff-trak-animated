@@ -69,19 +69,10 @@ const CtaSection: React.FC = () => {
             )}
           >
             <div className="space-y-4 bg-white p-6 rounded-xl shadow-sm">
-              <h3 className="text-xl font-semibold">Start monitoring today</h3>
-              <p className="text-sm text-tariff-gray">
-                Get full access to all features for 14 days, no credit card required.
-              </p>
-              
               <div className="space-y-3 pt-2">
                 <Button className="w-full rounded-full" size="lg">
                   Start Free Trial
                   <ArrowRight size={16} className="ml-2" />
-                </Button>
-                
-                <Button variant="outline" className="w-full rounded-full" size="lg">
-                  Contact Sales
                 </Button>
               </div>
               
