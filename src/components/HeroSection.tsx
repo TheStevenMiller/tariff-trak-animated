@@ -40,7 +40,7 @@ const HeroSection: React.FC = () => {
             </h1>
             
             <p className="text-lg md:text-xl text-tariff-gray max-w-2xl mx-auto">
-              Real-time monitoring and analysis of international trade policy that specifically impacts the U.S grocery & retail industry. Map tariff changes to your product SKUs and GTINs to understand how much of your revenue is at risk.
+              Real-time monitoring and analysis of international trade policy that specifically impacts key U.S industries like grocery, retail & manufacturing. Map tariff changes to your product SKUs and GTINs to understand how much of your revenue is at risk.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
