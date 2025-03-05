@@ -26,7 +26,7 @@ const faqItems = [
   },
   {
     question: "Why can't I just ask ChatGPT",
-    answer: "ChatGPT often hallucinates due to the fact that it uses information from media headlines or cites other blogs or web articles that are often out of date. We built this because we saw that ChatGPT and deep research struggle to accurately provide reliable and up to date information on how tariffs are impacting specific products."
+    answer: "ChatGPT often hallucinates due to the fact that a) it uses ambiguous citation from media headlines b) cites out of date blogs / web articles and c) cannot perform product specific analysis as defined by HTS codes. We built this because we saw that ChatGPT and deep research struggle to accurately provide reliable and up to date information on how tariffs are impacting specific products."
   }
 ];
 
