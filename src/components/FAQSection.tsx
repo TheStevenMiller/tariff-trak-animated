@@ -1,4 +1,3 @@
-
 import React from 'react';
 import {
   Accordion,
@@ -9,7 +8,7 @@ import {
 
 const faqItems = [
   {
-    question: "How does TariffTrak help my business?",
+    question: "Trump says 25% tariffs on Mexico & Canada. Does this mean all products?",
     answer: "TariffTrak provides real-time monitoring of global tariff changes affecting your specific products. Our platform helps you anticipate cost impacts, optimize your supply chain, and make informed strategic decisions before changes affect your bottom line."
   },
   {
