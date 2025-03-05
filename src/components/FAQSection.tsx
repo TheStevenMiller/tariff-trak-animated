@@ -21,8 +21,8 @@ const faqItems = [
     answer: "Tariff Tracker ingests the most up to date documents from the U.S Department of International Trade Commission. Specifically, we ingest newly published Harmonized Tariff Schedules (HTS) and compare them to historical HTS in order to understand if a specific item saw an increase/decrease in a tariff amount."
   },
   {
-    question: "Do you offer customized alerts?",
-    answer: "Yes, TariffTrak allows you to set up custom alerts based on specific products, HS codes, countries, or trade agreements. You'll only receive notifications for changes relevant to your business."
+    question: "I do not believe that your tool works",
+    answer: "Please schedule a demo with us and we will manually walk you through how we verify whether a specific item has a tariff increase/decrease. Trust us, even if you know how to parse HTS data you will not want to :)"
   },
   {
     question: "Can I integrate TariffTrak with my existing systems?",
