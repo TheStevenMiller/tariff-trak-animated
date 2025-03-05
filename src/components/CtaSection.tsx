@@ -5,11 +5,11 @@ import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
 const benefits = [
-  "Financial analysts: Get up to date, product level information on how tariffs are being implemented",
-  "Supply Chain Operators: Understand how much of your business is at risk from tariff disruptions",
-  "Import / Export teams: Identify legal loopholes in how tariffs are being implemented",
-  "Grocery Operators: Understand how tariffs might impact your most popular items",
-  "Legal teams: Expedite your ability to understand HTS changes"
+  "**Financial analysts:** Get up to date, product level information on how tariffs are being implemented",
+  "**Supply Chain Operators:** Understand how much of your business is at risk from tariff disruptions",
+  "**Import / Export teams:** Identify legal loopholes in how tariffs are being implemented",
+  "**Grocery Operators:** Understand how tariffs might impact your most popular items",
+  "**Legal teams:** Expedite your ability to understand HTS changes"
 ];
 
 const CtaSection: React.FC = () => {
@@ -57,7 +57,7 @@ const CtaSection: React.FC = () => {
                   )}
                 >
                   <CheckCircle2 size={18} className="text-green-500 mr-2 flex-shrink-0" />
-                  <span>{benefit}</span>
+                  <span dangerouslySetInnerHTML={{ __html: benefit.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>') }} />
                 </li>
               ))}
             </ul>
