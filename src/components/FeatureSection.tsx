@@ -20,8 +20,8 @@ const features: Feature[] = [
   },
   {
     icon: <LineChart className="text-tariff-blue" />,
-    title: "Trend Analysis",
-    description: "Visualize historical tariff data to identify patterns and predict future changes."
+    title: "Grocery Focused",
+    description: "Get sku and GTIN level granularity of specific products that will be impacted."
   },
   {
     icon: <Globe className="text-tariff-blue" />,
