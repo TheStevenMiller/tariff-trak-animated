@@ -20,7 +20,7 @@ const features: Feature[] = [
   {
     icon: <LineChart className="text-tariff-blue" />,
     title: "Product Level Granularity",
-    description: "Cut through the media noise to understand how tariffs impact specific products"
+    description: "Cut through the media noise to understand how tariffs impact specific products & SKUs"
   },
   {
     icon: <Globe className="text-tariff-blue" />,
