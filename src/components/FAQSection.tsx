@@ -18,7 +18,7 @@ const faqItems = [
   },
   {
     question: "How accurate is the tariff information?",
-    answer: "TariffTrak sources information directly from official government publications and regulatory bodies. Our team of trade experts verifies and updates our database daily to ensure you receive the most accurate and current information available."
+    answer: "Tariff Tracker ingests the most up to date documents from the U.S Department of International Trade Commission. Specifically, we ingest newly published Harmonized Tariff Schedules (HTS) and compare them to historical HTS in order to understand if a specific item saw an increase/decrease in a tariff amount."
   },
   {
     question: "Do you offer customized alerts?",
