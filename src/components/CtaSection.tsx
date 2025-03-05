@@ -71,7 +71,11 @@ const CtaSection: React.FC = () => {
           >
             <div className="space-y-4 bg-white p-6 rounded-xl shadow-sm">
               <div className="space-y-3 pt-2">
-                <Button className="w-full rounded-full" size="lg">
+                <Button 
+                  className="w-full rounded-full" 
+                  size="lg"
+                  onClick={() => window.open("https://calendly.com/stevenmiller-viryai", "_blank")}
+                >
                   Book demo
                   <Calendar size={16} className="ml-2" />
                 </Button>
