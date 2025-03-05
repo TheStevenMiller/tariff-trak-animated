@@ -25,8 +25,8 @@ const features: Feature[] = [
   },
   {
     icon: <Globe className="text-tariff-blue" />,
-    title: "Global Coverage",
-    description: "Access comprehensive tariff information from 194 countries and customs territories."
+    title: "Canada & Mexico",
+    description: "Access comprehensive tariff information from the most important trade partners for U.S. grocery retailers."
   }
 ];
 
