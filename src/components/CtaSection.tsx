@@ -40,7 +40,7 @@ const CtaSection: React.FC = () => {
           )}
         >
           <div className="lg:col-span-3 space-y-6">
-            <h2 className="text-3xl md:text-4xl font-bold">Ready to transform your <span className="text-gradient">tariff strategy</span>?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">Try now for <span className="text-tariff-blue">free</span></h2>
             <p className="text-tariff-gray">
               Join thousands of businesses that trust TariffTrak to navigate the complexities of international trade regulations.
             </p>
