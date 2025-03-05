@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils';
 
 const benefits = [
   "Financial analysts: Get up to date, product level information on how tariffs are being implemented",
-  "Optimize supply chain costs",
+  "Supply Chain Operators: Understand how much of your business is at risk from tariff disruptions",
   "Reduce compliance risks",
   "Improve strategic planning"
 ];
