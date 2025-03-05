@@ -19,8 +19,8 @@ const features: Feature[] = [
   },
   {
     icon: <LineChart className="text-tariff-blue" />,
-    title: "Grocery Focused",
-    description: "Get sku and GTIN level granularity of specific products that will be impacted."
+    title: "Product Level Granularity",
+    description: "Understand tariffs specific products due to our ability to accurately mine HTS data"
   },
   {
     icon: <Globe className="text-tariff-blue" />,
